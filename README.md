@@ -3,7 +3,7 @@ Service File
 ## newfile.service
 
 ###### [Unit]
-###### Description=<My First service file>
+###### Description=My First service file
 ###### [Service]
 ###### type=simple
 ###### ExecStart=/home/knoldus/newfile.sh
