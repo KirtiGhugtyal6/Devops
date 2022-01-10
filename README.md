@@ -1,14 +1,14 @@
 Service File
 
-# newfile.service
+## newfile.service
 
-[Unit]
-Description=<My First service file>
-[Service]
-type=simple
-ExecStart=/home/knoldus/newfile.sh
-[Install]
-WantedBy=multi-user.target
+###### [Unit]
+###### Description=<My First service file>
+###### [Service]
+###### type=simple
+###### ExecStart=/home/knoldus/newfile.sh
+###### [Install]
+###### WantedBy=multi-user.target
 
   
   ##### **[Unit]** carries generic information about units that are not dependent on the type of unit.
